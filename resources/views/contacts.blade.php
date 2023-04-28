@@ -7,6 +7,17 @@
     <title>Document</title>
 </head>
 <body>
+<header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                    <a href="contacts">Contacts</a>
+                    <a href="support">Support</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <h1>This is the contact page</h1>
 </body>
 </html>

@@ -7,6 +7,17 @@
     <title>Document</title>
 </head>
 <body>
+<header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                    <a href="contacts">Contacts</a>
+                    <a href="support">Support</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <h1>This is the support page</h1>
     <h2>Contact us at {{ $phone_number }}</h2>
 </body>
