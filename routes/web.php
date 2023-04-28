@@ -22,5 +22,9 @@ Route::get('/contacts', function () {
 });
 
 Route::get('/support', function () {
-    return view('support');
+    $data = [
+        'phone_number' => '+39-333-222-111'
+    ];
+
+    return view('support', $data);
 });

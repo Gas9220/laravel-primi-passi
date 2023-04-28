@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>This is the support page</h1>
+    <h2>Contact us at {{ $phone_number }}</h2>
 </body>
 </html>
